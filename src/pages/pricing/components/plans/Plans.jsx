@@ -12,7 +12,16 @@ const Plans = () => {
           </p>
         </div>
         <div className="card-wrapper grid grid-cols-3 gap-[30px] h-[740px] ">
-          <div className="rounded-[12px] bg-[#F4F6FC] p-[40px]">
+          <div className="rounded-[12px] bg-[#F4F6FC] p-[40px] flex flex-col gap-6">
+            <div className="flex place-items-center gap-[10%]">
+              <strong className="text-4xl">$299</strong>
+              <p className="text-[#2405F2]">Per Design</p>
+            </div>
+            <h3 className="text-2xl font-medium">Website Page </h3>
+            <p className="mb-[10%]">
+              When you’re ready to go beyond prototyping in Figma, Webflow’s
+              ready to help.
+            </p>
             <ul className="flex flex-col gap-[15px]">
               <li>All limited links</li>
               <li>Own analytics platform</li>
@@ -24,7 +33,16 @@ const Plans = () => {
               Get started
             </button>
           </div>
-          <div className="rounded-[12px] bg-[#1C1E53] p-[40px]">
+          <div className="rounded-[12px] bg-[#1C1E53] p-[40px] text-white flex flex-col gap-6">
+            <div className="flex place-items-center gap-[10%]">
+              <strong className="text-4xl text-white">$299</strong>
+              <p className="text-[#FCD980]">Per Design</p>
+            </div>
+            <h3 className="text-2xl font-medium">Website Page </h3>
+            <p className="text-[#FFFFFF] mb-[10%]">
+              When you’re ready to go beyond prototyping in Figma, Webflow’s
+              ready to help.
+            </p>
             <ul className="text-white flex flex-col gap-[15px]">
               <li>All limited links</li>
               <li>Own analytics platform</li>
@@ -36,7 +54,16 @@ const Plans = () => {
               Get started
             </button>
           </div>
-          <div className="rounded-[12px] bg-[#F4F6FC] p-[40px]">
+          <div className="rounded-[12px] bg-[#F4F6FC] p-[40px] flex flex-col gap-6">
+            <div className="flex place-items-center gap-[10%]">
+              <strong className="text-4xl">$299</strong>
+              <p className="text-[#2405F2]">Per Design</p>
+            </div>
+            <h3 className="text-2xl font-medium">Website Page </h3>
+            <p className="mb-[10%]">
+              When you’re ready to go beyond prototyping in Figma, Webflow’s
+              ready to help.
+            </p>
             <ul className="flex flex-col gap-[15px]">
               <li>All limited links</li>
               <li>Own analytics platform</li>
