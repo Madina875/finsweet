@@ -1,7 +1,12 @@
 import React from "react";
+import Plans from "./components/plans/Plans";
 
 const Pricing = () => {
-  return <div>Pricing</div>;
+  return (
+    <>
+      <Plans />
+    </>
+  );
 };
 
 export default Pricing;
